@@ -1,0 +1,14 @@
+.greetings-box { 
+  height: 70px;
+  width: 700px;
+  border: solid 2px black;
+  display:flex;
+  align-items: center;
+  
+}
+.greetings-box > p {
+  font-weight: 500;
+  padding-left: 30px ;
+  font-size: 30px;
+  
+}

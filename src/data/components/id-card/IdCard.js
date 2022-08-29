@@ -2,7 +2,7 @@ import './IdCard.css';
 
 function IdCard({ lastName, firstName, gender, height, birth, picture }) {
   const femaleGender = gender ? "female" : "male"
-
+ 
   return (
     <div className="d-flex mb-3">
       <div className="id-card d-flex flex-row">
@@ -13,8 +13,8 @@ function IdCard({ lastName, firstName, gender, height, birth, picture }) {
           <p className="fw-bold">First Name: { firstName }</p>
           <p className="fw-bold">Last Name: { lastName }</p>
           <p className="fw-bold">Gender: { femaleGender }</p>
-          <p className="fw-bold">Height: { height }</p>
-          <p className="fw-bold">Birth: {birth}</p>
+          <p className="fw-bold">Height: { Number(height)/100 }</p>
+          <p className="fw-bold">Birth: {birth.toLocaleDateString()}</p>
         </div>
       </div>
     </div>

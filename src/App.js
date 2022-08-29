@@ -8,8 +8,8 @@ function App() {
           lastName="Doe"
           firstName="John"
           gender={false}
-          height={Number(178)/100}
-          birth={ new Date("1992-07-14").toLocaleDateString()}
+          height={178}
+          birth={ new Date("1992-07-14")}
           picture="https://randomuser.me/api/portraits/men/44.jpg"
         />
 
@@ -17,8 +17,8 @@ function App() {
           lastName="Delores "
           firstName="Obrien"
           gender={true}
-          height={Number(172)/100}
-          birth={ new Date("1988-05-11").toLocaleDateString()}
+          height={172}
+          birth={ new Date("1988-05-11")}
           picture="https://randomuser.me/api/portraits/women/44.jpg"
         />
       </div>

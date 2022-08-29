@@ -1,16 +1,13 @@
-.random-box { 
-  height: 70px;
+.boxcolor-box { 
+  height: 200px;
   width: 700px;
   border: solid 2px black;
   display:flex;
   align-items: center;
   
 }
-
-.random-box > p {
+.boxcolor-box > p {
   font-weight: 500;
-  padding-left: 30px ;
   font-size: 30px;
   
 }
-

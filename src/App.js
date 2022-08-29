@@ -1,6 +1,7 @@
 import Greetings from './data/components/greetings/Greetings';
 import IdCard from './data/components/id-card/IdCard';
 import Random from './data/components/random/Random';
+import BoxColor from './data/components/box-color/BoxColor';
 
 function App() {
   return (
@@ -33,6 +34,10 @@ function App() {
       <div className="mb-5">
         <Random min={1} max={6} />
         <Random min={1} max={100} />
+      </div>
+      <div>
+        <BoxColor r={255} g={0} b={0} />
+        <BoxColor r={128} g={255} b={0} />
       </div>
     </div>
   );
